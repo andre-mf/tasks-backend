@@ -13,6 +13,6 @@ public class RootController {
 	
 	@GetMapping
 	public String hello() {
-		return "Hello World! - " + new Date().toString() + " - André 2023! - 1";
+		return "Hello World! - " + new Date().toString() + " - André 2023! - 2";
 	}
 }
